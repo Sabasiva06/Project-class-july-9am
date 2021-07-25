@@ -14,6 +14,16 @@ public class Employee {
 		System.out.println("employee address is omr");
 	}
 
+	private void employeeNumber() {
+		System.out.println("Employee Number :09876543");
+
+	}
+
+	private void employeeGender() {
+		System.out.println("Employee Gender : M");
+
+	}
+
 	private void employeeDepartment() {
 		System.out.println("Mechanical Department");
 
@@ -26,7 +36,6 @@ public class Employee {
 
 	private void employeeLocation() {
 		System.out.println("Employee Location : Chennai");
-
 	}
 
 	public static void main(String[] args) {
