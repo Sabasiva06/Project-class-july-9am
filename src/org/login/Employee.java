@@ -24,6 +24,20 @@ public class Employee {
 
 	}
 
+	private void employeeDepartment() {
+		System.out.println("Mechanical Department");
+
+	}
+
+	private void employeeSalary() {
+		System.out.println("Employee Salary 10 lakhs");
+
+	}
+
+	private void employeeLocation() {
+		System.out.println("Employee Location : Chennai");
+	}
+
 	public static void main(String[] args) {
 		// Classname objname = new Classname();
 		Employee a = new Employee();
